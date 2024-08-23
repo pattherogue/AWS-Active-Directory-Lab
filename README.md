@@ -73,4 +73,15 @@ The AWS-Active-Directory project focused on setting up and managing a comprehens
 *Ref 6: Issue Resolution*
 
 - **Resolution**: Addressed and solved common issues related to domain login and Active Directory, demonstrating essential help desk problem-solving skills.
-  - ![Issue Resolution](link-to-image8.png)
+
+- **Description of Issues Encountered**:
+  - During the configuration and management of the Active Directory environment, I encountered several common issues, such as domain login failures and permission errors.
+  - For example, one issue involved users being unable to log in due to incorrect DNS settings. This was resolved by adjusting the DNS server configuration on the client machine to point to the correct IP address of the Domain Controller.
+
+- **Steps Taken to Resolve Issues**:
+  - To troubleshoot the login issue, I first checked the Event Viewer on both the client machine and the server for relevant error logs. The logs indicated that the client could not locate the domain because it was pointing to an incorrect DNS server.
+  - I updated the client machine’s network settings to use the IP address of the Domain Controller as its primary DNS server. This change allowed the client to locate the domain and successfully authenticate users.
+  - Additionally, I verified the Group Policy settings to ensure that they were being applied correctly across the domain.
+
+- **Outcome**:
+  - After applying the necessary changes, users were able to log in to the domain without further issues. The DNS configuration changes ensured that the client machines could consistently resolve the domain name, leading to successful logins and improved connectivity within the domain.
