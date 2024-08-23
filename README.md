@@ -29,9 +29,8 @@ The AWS-Active-Directory project focused on setting up and managing a comprehens
   - ![EC2 Dashboard 3](https://i.imgur.com/2WdlqmK.png)
     
 - **Configuration**: Adjusted security group settings to permit RDP traffic.
-  - ![Security Group Settings](https://i.imgur.com/ZuMI3vW.png)
-  - ![Security Group Settings](https://i.imgur.com/zy8wNk9.png)
-  - ![Security Group Settings](https://i.imgur.com/19vz12W.png)
+  - ![Security Group Settings](https://i.imgur.com/9m9DywS.png)
+  - ![Security Group Settings](https://i.imgur.com/bXxEgqM.png)
 
 ### Active Directory Configuration
 *Ref 2: AD DS Installation*
@@ -46,7 +45,16 @@ The AWS-Active-Directory project focused on setting up and managing a comprehens
 *Ref 3: PowerShell Script*
 
 - **Automation**: Used PowerShell to import users from a CSV file and manage them in bulk.
-  - ![PowerShell Script](link-to-image5.png)
+
+   The following PowerShell script was used to create and manage users in bulk:
+
+   ```powershell
+   Import-Module ActiveDirectory
+   $users = Import-Csv "C:\path\to\your\users.csv"
+   foreach ($user in $users) {
+       New-ADUser -Name $user.Name -GivenName $user.GivenName -Surname $user.Surname -SamAccountName $user.Username -UserPrincipalName "$($user.Username)@yourdomain.local" -Path "OU=Users,DC=yourdomain,DC=local" -AccountPassword (ConvertTo-SecureString $user.Password -AsPlainText -Force) -PasswordNeverExpires $true -PassThru
+   }
+
 
 ### Client Integration
 *Ref 4: Domain Login Test*
