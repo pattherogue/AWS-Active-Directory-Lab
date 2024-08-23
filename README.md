@@ -40,7 +40,7 @@ The AWS-Active-Directory project focused on setting up and managing a comprehens
   - ![AD DS Installation](https://i.imgur.com/qc9pHUz.png)
   - ![AD DS Installation](https://i.imgur.com/81OC7qo.png)
 - **Management**: Created and managed users and organizational units (OUs).
-  - ![AD DS Management](link-to-image4.png)
+  - ![AD DS Management](https://i.imgur.com/eiXTI3m.png)
 
 ### Bulk User Management
 *Ref 3: PowerShell Script*
