@@ -67,7 +67,7 @@ The AWS-Active-Directory project focused on setting up and managing a comprehens
 *Ref 5: GPO Creation*
 
 - **Configuration**: Developed and managed Group Policy Objects (GPOs) for domain-wide settings.
-  - ![GPO Creation](link-to-image7.png)
+  - ![GPO Creation](https://i.imgur.com/vDWaQuR.png)
 
 ### Troubleshooting and Support
 *Ref 6: Issue Resolution*
