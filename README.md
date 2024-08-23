@@ -29,7 +29,9 @@ The AWS-Active-Directory project focused on setting up and managing a comprehens
   - ![EC2 Dashboard 3](https://i.imgur.com/2WdlqmK.png)
     
 - **Configuration**: Adjusted security group settings to permit RDP traffic.
-  - ![Security Group Settings](link-to-image2.png)
+  - ![Security Group Settings](https://i.imgur.com/ZuMI3vW.png)
+  - ![Security Group Settings](https://i.imgur.com/zy8wNk9.png)
+  - ![Security Group Settings](https://i.imgur.com/19vz12W.png)
 
 ### Active Directory Configuration
 *Ref 2: AD DS Installation*
