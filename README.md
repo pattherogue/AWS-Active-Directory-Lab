@@ -37,7 +37,8 @@ The AWS-Active-Directory project focused on setting up and managing a comprehens
 *Ref 2: AD DS Installation*
 
 - **Installation**: Added the AD DS role and promoted the server to a Domain Controller.
-  - ![AD DS Installation](link-to-image3.png)
+  - ![AD DS Installation](https://i.imgur.com/qc9pHUz.png)
+  - ![AD DS Installation](https://i.imgur.com/81OC7qo.png)
 - **Management**: Created and managed users and organizational units (OUs).
   - ![AD DS Management](link-to-image4.png)
 
