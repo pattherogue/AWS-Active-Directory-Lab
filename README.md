@@ -60,8 +60,8 @@ The AWS Active Directory project focused on setting up and managing a comprehens
 *Ref 4: Domain Login Test*
 
 - **Integration**: Connected a client machine to the domain and confirmed domain login and connectivity.
-  - ![Domain Login Test](https://i.imgur.com/PYzltYQ.png)
   - ![Domain Login Test](https://i.imgur.com/Yswttr0.png)
+  - ![Domain Login Test](https://i.imgur.com/PYzltYQ.png)
 
 ### Group Policy Management
 *Ref 5: GPO Creation*
