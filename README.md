@@ -1,4 +1,4 @@
-# AWS-Active-Directory
+# AWS Active Directory
 
 ## Objective
 The AWS Active Directory project focused on setting up and managing a comprehensive Active Directory environment within AWS. The objective was to simulate a business environment by configuring Active Directory services on a Windows Server instance hosted in AWS. This project demonstrates key IT skills such as user management, organizational unit creation, and group policy administration, crucial for an entry-level help desk role.
